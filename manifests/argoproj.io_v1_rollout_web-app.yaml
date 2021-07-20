@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   annotations:
-    getambassador.io/rolloutId: f447b21d-71bd-4d5b-96ab-c30ea9460111
+    getambassador.io/rolloutId: 52c4514d-8744-418a-bb9c-401fe590ffdd
   creationTimestamp: null
   labels:
     app.kubernetes.io/name: web-app
