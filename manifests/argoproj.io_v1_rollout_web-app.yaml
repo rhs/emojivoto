@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   annotations:
-    getambassador.io/rolloutId: bc336b5f-95b3-4ffe-9827-7820845fd755
+    getambassador.io/rolloutId: 0b545d2c-396f-47d2-bfe1-c9aff98921b5
   creationTimestamp: null
   labels:
     app.kubernetes.io/name: web-app
@@ -21,34 +21,34 @@ spec:
       steps:
       - setWeight: 10
       - pause:
-          duration: 1
+          duration: 12
       - setWeight: 20
       - pause:
-          duration: 1
+          duration: 12
       - setWeight: 30
       - pause:
-          duration: 1
+          duration: 12
       - setWeight: 40
       - pause:
-          duration: 1
+          duration: 12
       - setWeight: 50
       - pause:
-          duration: 1
+          duration: 12
       - setWeight: 60
       - pause:
-          duration: 1
+          duration: 12
       - setWeight: 70
       - pause:
-          duration: 1
+          duration: 12
       - setWeight: 80
       - pause:
-          duration: 1
+          duration: 12
       - setWeight: 90
       - pause:
-          duration: 1
+          duration: 12
       - setWeight: 100
       - pause:
-          duration: 1
+          duration: 12
       trafficRouting:
         ambassador:
           mappings:
